@@ -8,30 +8,15 @@ document.getElementById('iframe').style.display='block';
 </script>
 </head>
 <body>
-<a onclick="openIframe('https://www.youtube.com');" style="text-decoration:none;">youtube</a><br><br>
-<a onclick="openIframe('https://www.cdc.gov');" style="text-decoration:none;">cdc</a><br><br>
+<button onclick="openIframe('https://www.youtube.com');" style="text-decoration:none;cursor:pointer;position:absolute;z-index:9999;">youtube</button><br>
+<button onclick="openIframe('https://www.cdc.gov');" style="text-decoration:none;cursor:pointer;position:absolute;z-index:9999;">cdc</button><br>
 
-<a onclick="openIframe('https://www.drive.google.com');">google drive</a>
+<button onclick="openIframe('https://www.drive.google.com');" style="text-decoration:none;cursor:pointer;position:absolute;z-index:9999;">google drive</button>
 
-<iframe id="iframe" style="display:none;width:100%;height:100%;z-index:999;margin:0;padding:0;position:absolute;top:0;left:0;border:none;"></iframe>
+<iframe id="iframe" style="display:none;width:100%;height:100%;z-index:999;margin:0;padding:0;position:absolute;top:0;left:0;border:none;">
+</iframe>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
