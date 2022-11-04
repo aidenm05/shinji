@@ -2,29 +2,20 @@
 <head>
 <script type="text/javascript">
 function openIframe(url){
-if(document.getElementById('iframe').style.display=='none'){
 document.getElementById('iframe').src=url;
 document.getElementById('iframe').style.display='block';
-}
-else{
-document.getElementById('iframe').src=url;
-
-}
 }
 </script>
 </head>
 <body>
-<a href="" onclick="openIframe('https://www.youtube.com');" style="text-decoration:none;">youtube</a><br>
-<a href="" onclick="openIframe('https://www.cdc.gov');" style="text-decoration:none;">cdc</a><br>
+<onclick="openIframe('https://www.youtube.com');" style="text-decoration:none;">youtube</a><br>
+<onclick="openIframe('https://www.cdc.gov');" style="text-decoration:none;">cdc</a><br>
 
-<a href="" onclick="openIframe('https://www.drive.google.com');">google drive</a>
+<onclick="openIframe('https://www.drive.google.com');">google drive</a>
 
 <iframe id="iframe" style="display:none;width:100%;height:100%;z-index:999;margin:0;padding:0;position:absolute;top:0;left:0;"></iframe>
 </body>
 </html>
-
-
-
 
 
 
